@@ -1,0 +1,11 @@
+
+// sounds
+
+background backmega.wav
+hitShip shipdeath.wav
+hitProj enemydeath.wav
+// hitWall clack.au
+warp warp.wav
+shoot shoot.wav
+gameOver lose.wav
+dash dash.wav

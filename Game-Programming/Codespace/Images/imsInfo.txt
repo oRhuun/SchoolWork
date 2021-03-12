@@ -1,0 +1,26 @@
+
+// imsInfo.txt images
+
+//health images
+o health0.png
+o health1.png
+o health2.png
+o health3.png
+
+// VEnemy images
+s venemy.png 4
+
+// background image
+o back.jpg
+
+//title/help image
+o title.png
+
+// ship images
+s ship.png 4
+
+// PEnemy images
+s penemy.png 5
+
+//Projectile images
+s proj.png 2
