@@ -1,0 +1,32 @@
+Superclass (Abstract) - 
+BankAccount
+	- Methods:	
+				deposit() - method to deposit money into the balance
+				withdraw() - method to withdraw money from the balance
+				getBalance() - return the current balance
+	- Protected Variables:
+				balance
+				
+Interface - InterestRate
+	- allows saving and adding on an interest rate to a balance in a class
+	- Methods:
+		setInterest()
+		getInterest()
+		addInterest()
+	- Variables:
+		interest
+	
+Subclasses (Concrete) - 
+CheckingAccount extends BankAccount
+	- inherits functionality from BankAccount superclass
+SavingsAccount extends BankAccount implements InterestRate
+	- inherits functionality from BankAccount superclass
+	- implements InterestRate
+CreditAccount extends BankAccount implements InterestRate
+	- inherits functionality from BankAccount superclass
+	- implements InterestRate
+	- contains a variable and check for a maximum amount that can be borrowed at a time
+		- Methods:
+			checkBorrowAmount()
+		- Variables:
+			maxBorrowAmount()
